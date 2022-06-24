@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Funsamentos - Align Itens</title>
+   <style>
+      .container{
+         max-width: 350px;
+         border:1px solid black;
+         display: flex;
+      }
+      .item{
+         background-color: blueviolet;
+         margin: 5px;
+         color:white;
+         text-align: center;
+         flex: 1;
+      }
+      .center{
+         align-items: center;
+      }
+      .stretch{
+         align-items: stretch;
+      }
+      .start{
+         align-items: flex-start;
+      }
+      .end{
+         align-items: flex-end;
+      }
+      .baseLine{
+         align-items: baseline;
+      }
+      .column{
+         flex-direction: column;
+      }
+      .central{
+         height: 300px;
+         justify-content: center;
+      }
+      .central .item{
+         flex: 0;
+         padding: 20px;
+      }
+   </style>
+</head>
+<body>
+   <h1>row</h1>
+   <h2>center</h2>
+   <section class="container center">
+      <div class="item">Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3</div>
+   </section>
+   <h2>stretch</h2>
+   <section class="container stretch">
+      <div class="item">Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3</div>
+   </section>
+   <h2>flex-start</h2>
+   <section class="container start">
+      <div class="item">Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3</div>
+   </section>
+   <h2>flex-end</h2>
+   <section class="container end">
+      <div class="item">Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3</div>
+   </section>
+   <h2>baseLine</h2>
+   <section class="container baseLine">
+      <div class="item"><br>Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3 Item 3 Item 3 Item 3 Item 3</div>
+   </section>
+   <h1>column</h1>
+   <h2>flex-start</h2>
+   <section class="container column start">
+      <div class="item">Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3</div>
+   </section>
+   <h2>flex-end</h2>
+   <section class="container column end">
+      <div class="item">Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3</div>
+   </section>
+   <h2>flex-center</h2>
+   <section class="container column center">
+      <div class="item">Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3</div>
+   </section>
+   <h2>baseLine</h2>
+   <section class="container column baseLine">
+      <div class="item"><br>Item 1</div>
+      <div class="item">Super fantástico amigo, que bom</div>
+      <div class="item">Item 3 Item 3 Item 3 Item 3 Item 3</div>
+   </section>
+   <h2>alinhamento central à tela</h2>
+   <section class="container central center">
+      <div class="item">Father I want to love you touch your heart...</div>
+   </section>
+</body>
+</html>
