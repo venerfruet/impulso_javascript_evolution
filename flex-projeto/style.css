@@ -233,6 +233,7 @@ footer .footer{
    #quem-somos{
       flex-direction: column-reverse;
    }
+
    .list-servicos{
       flex-direction: column;
    }
