@@ -3,11 +3,11 @@ import React from "react";
 const buttonA=<button>Histórico de Clientes</button>
 const buttonB=<button>Cadastrar Clientes</button>
 
-const hasCustomer=true
+const hasCustomer=false
 
 const App=()=>{
 
-  const renderShowHistory=()=>(
+  const renderShowHistory=(
     <div>
       Clique no botão abaixo para visualizar o histórico dos clientes
       <br/>
@@ -15,7 +15,7 @@ const App=()=>{
     </div>
   )
 
-  const renderAddCustomer=()=>(
+  const renderAddCustomer=(
     <div>
       Clique no botão abaixo para cadastrar o cliente
       <br/>
@@ -38,7 +38,7 @@ const App=()=>{
     <div>
       <p>Digital Innovation One</p>
       <p>Bem vindo a nossa aula ;)</p>
-      {hasCustomer ? renderShowHistory() : renderAddCustomer()}
+      {hasCustomer ? renderShowHistory : renderAddCustomer}
       {showCustomer()}
     </div>
   );
