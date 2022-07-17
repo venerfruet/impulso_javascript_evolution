@@ -24,15 +24,11 @@ const listCustomer=[
 ]
 
 const App=()=>{
-  
-  const handleClick=(e, id)=>{
-    console.log('ID do cliente =', id)
-  }
-  
+
   const renderCustomers=(customer, index)=>{
     return(
       <div key={`customer-${customer.id}`}>
-        <li>{customer.name} <button onClick={(e)=>handleClick(e, customer.id)}>X</button></li>
+        <li>{customer.name}</li>
         {customer.skills.map(renderSkills)}
       </div>
     )
