@@ -1,2 +1,3 @@
 # digital-innovation-one-introduction-reactjs
-Introdução ao ReactJS
+## Introdução ao ReactJS
+Aulas ministradas pelo porf. Bruno Carneiro
