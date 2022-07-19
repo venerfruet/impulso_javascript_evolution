@@ -25,9 +25,7 @@ const App=()=>{
   
   const renderSkills=(skill, index)=>{
     return(
-      <div style={{paddingLeft: '23px'}} key={`skill-${index}`}>
-        <Li2>{skill}</Li2>
-      </div>
+      <Li2 key={`skill-${index}`}>{skill}</Li2>
     )
   }
 

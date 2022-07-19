@@ -1,12 +1,19 @@
 import React from 'react'
 
-const liStyle={
-  listStyleType:'disclosure-closed' 
+const divStyle={
+  paddingLeft:'23px'
 }
+
+const liStyle={
+  listStyleType:'disclosure-closed'
+}
+
 
 const Li2=({children})=>{
   return(
-    <li style={liStyle}>{children}</li>
+    <div style={divStyle}>
+      <li style={liStyle}>{children}</li>
+    </div>
   )
 }
 
