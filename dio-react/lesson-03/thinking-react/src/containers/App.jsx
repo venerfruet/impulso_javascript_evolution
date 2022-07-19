@@ -11,7 +11,7 @@ const App=()=>{
   const renderCustomers=(customer)=>{
     return(
       <div key={`customer-${customer.id}`}>
-        <li>{customer.name} <Button onClick={(e=>handleClick(customer.id))}>X</Button></li>
+        <li>{customer.name}<Button onClick={(e=>handleClick(customer.id))}>X</Button></li>
         {customer.skills.map(renderSkills)}
       </div>
     )
