@@ -1,8 +1,6 @@
 import React from 'react'
 import mock from '../mock'
 import Button from '../components/Button'
-import Li1 from '../components/List'
-import Li2 from '../components/Li2'
 
 const App=()=>{
 
@@ -13,7 +11,7 @@ const App=()=>{
   const renderCustomers=(customer)=>{
     return(
       <div key={`customer-${customer.id}`}>
-        <Li1>{customer.name} <Button onClick={(e=>handleClick(customer.id))}>X</Button></Li1>
+        <li>{customer.name} <Button onClick={(e=>handleClick(customer.id))}>X</Button></li>
         {customer.skills.map(renderSkills)}
       </div>
     )
@@ -22,7 +20,7 @@ const App=()=>{
   const renderSkills=(skill, index)=>{
     return(
       <div style={{paddingLeft: '27px'}} key={`skill-${index}`}>
-        <Li2>{skill}</Li2>
+        <li>{skill}</li>
       </div>
     )
   }
