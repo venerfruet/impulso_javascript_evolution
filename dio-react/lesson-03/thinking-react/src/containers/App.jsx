@@ -27,9 +27,9 @@ const App=()=>{
 
   return(
     <div>
-      <h1>Digital Innovation One</h1>
-      <h2>Bem vindo a nossa aula!</h2>
-      <h3>Thinking React</h3>
+      <p>Digital Innovation One</p>
+      <p>Bem vindo a nossa aula!</p>
+      <p>Thinking React</p>
       <ul>
         {mock.map(renderCustomers)}
       </ul>
