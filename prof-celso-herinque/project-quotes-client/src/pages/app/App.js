@@ -16,8 +16,13 @@ export function App(){
   });
 
   const onUpdate=async ()=>{
-    const quote=await getQuote();
+    //const quote=await getQuote();
 
+    //*implementação sem servidor api
+    const retorno=await getQuote();
+    const quote=JSON.parse(retorno);
+    //fim implementação
+    
     if(isMounted.current){
       audio.play();
       setQuoteState(quote);
