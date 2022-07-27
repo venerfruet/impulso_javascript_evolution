@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/venerfruet/perolas_homer/static/js/main.d71ee8a1.chunk.js",
+    "main.js.map": "/venerfruet/perolas_homer/static/js/main.d71ee8a1.chunk.js.map",
+    "runtime-main.js": "/venerfruet/perolas_homer/static/js/runtime-main.fb69dee3.js",
+    "runtime-main.js.map": "/venerfruet/perolas_homer/static/js/runtime-main.fb69dee3.js.map",
+    "static/js/2.0b1e9cd3.chunk.js": "/venerfruet/perolas_homer/static/js/2.0b1e9cd3.chunk.js",
+    "static/js/2.0b1e9cd3.chunk.js.map": "/venerfruet/perolas_homer/static/js/2.0b1e9cd3.chunk.js.map",
+    "index.html": "/venerfruet/perolas_homer/index.html",
+    "static/js/2.0b1e9cd3.chunk.js.LICENSE.txt": "/venerfruet/perolas_homer/static/js/2.0b1e9cd3.chunk.js.LICENSE.txt",
+    "static/media/AkbarPlain.1b5f80e4.woff": "/venerfruet/perolas_homer/static/media/AkbarPlain.1b5f80e4.woff",
+    "static/media/AkbarPlain.7f50f3e2.eot": "/venerfruet/perolas_homer/static/media/AkbarPlain.7f50f3e2.eot",
+    "static/media/AkbarPlain.c9102620.woff2": "/venerfruet/perolas_homer/static/media/AkbarPlain.c9102620.woff2",
+    "static/media/bg.1781bbd1.jpg": "/venerfruet/perolas_homer/static/media/bg.1781bbd1.jpg",
+    "static/media/homer.32492859.png": "/venerfruet/perolas_homer/static/media/homer.32492859.png",
+    "static/media/ohSure.b503f576.mp3": "/venerfruet/perolas_homer/static/media/ohSure.b503f576.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb69dee3.js",
+    "static/js/2.0b1e9cd3.chunk.js",
+    "static/js/main.d71ee8a1.chunk.js"
+  ]
+}
