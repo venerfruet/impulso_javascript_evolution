@@ -6,7 +6,7 @@ export const Button=styled.button`
   border:nome;
   border-radius:0;
   font-size:1.5em;
-  padding:10x;
+  padding:10px;
   cursor:pointer;
   box-shadow:#333 3px 3px;
   font-family:Simpsons-Font, serife;
