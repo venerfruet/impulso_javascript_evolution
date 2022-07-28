@@ -6,12 +6,12 @@ export const Button=styled.button`
   border:nome;
   border-radius:0;
   font-size:1.5em;
-  padding:10x 20px;
+  padding:10x;
   cursor:pointer;
   box-shadow:#333 3px 3px;
   font-family:Simpsons-Font, serife;
 
-  &:hover {
+  &:hover &:active{
     background-color: #d4ae7d;
   }
 

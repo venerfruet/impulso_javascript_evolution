@@ -12,22 +12,20 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1"
   },
+  "homepage": "https://venerfruet.github.io/perolas_homer/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build production",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-  },
-  "homepage": "https://venerfruet.github.io/perolas_homer/",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
