@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/perolas_homer/static/js/main.df6d04ad.chunk.js",
-    "main.js.map": "/perolas_homer/static/js/main.df6d04ad.chunk.js.map",
+    "main.js": "/perolas_homer/static/js/main.883b562c.chunk.js",
+    "main.js.map": "/perolas_homer/static/js/main.883b562c.chunk.js.map",
     "runtime-main.js": "/perolas_homer/static/js/runtime-main.92dca648.js",
     "runtime-main.js.map": "/perolas_homer/static/js/runtime-main.92dca648.js.map",
     "static/js/2.5b9a3ff7.chunk.js": "/perolas_homer/static/js/2.5b9a3ff7.chunk.js",
@@ -13,11 +13,12 @@
     "static/media/AkbarPlain.c9102620.woff2": "/perolas_homer/static/media/AkbarPlain.c9102620.woff2",
     "static/media/bg.1781bbd1.jpg": "/perolas_homer/static/media/bg.1781bbd1.jpg",
     "static/media/homer.32492859.png": "/perolas_homer/static/media/homer.32492859.png",
-    "static/media/ohSure.b503f576.mp3": "/perolas_homer/static/media/ohSure.b503f576.mp3"
+    "static/media/ohSure.b503f576.mp3": "/perolas_homer/static/media/ohSure.b503f576.mp3",
+    "static/media/rotatedevice.2af7be65.gif": "/perolas_homer/static/media/rotatedevice.2af7be65.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.92dca648.js",
     "static/js/2.5b9a3ff7.chunk.js",
-    "static/js/main.df6d04ad.chunk.js"
+    "static/js/main.883b562c.chunk.js"
   ]
 }
