@@ -20,4 +20,11 @@ export const GloabalStyle=createGlobalStyle`
     margin:0;
     font-family:Simpsons-Font, serife;
   }
+
+  @media only screen and (orientation:portrait){
+    body {
+      height: 50vw;
+      background:none;
+    }
+  }
 `;

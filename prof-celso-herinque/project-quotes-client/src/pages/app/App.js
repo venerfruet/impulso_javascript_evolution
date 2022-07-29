@@ -1,6 +1,7 @@
 import {useState, useEffect, useRef} from 'react';
 import styled from 'styled-components';
 import homerImg from '../../images/homer.png';
+import orientationImg from '../../images/rotatedevice.gif';
 import {Quotes} from '../../components';
 import {getQuote} from '../../services';
 import ohSureSound from '../../sounds/ohSure.mp3';
@@ -40,7 +41,7 @@ export function App(){
   return(
     <Content>
       <Quotes {...quoteState} onUpdate={onUpdate}/>
-      <HomerImg src={homerImg} alt='Homer comendo rosquinha' />
+      <HomerImg alt='Imagem do personagem'></HomerImg>
     </Content>
   )
 }
@@ -51,8 +52,22 @@ const Content=styled.div`
   display:flex;
   justify-content:center;
   align-items:center;
+  @media only screen and (orientation:portrait){
+    flex-direction:column;
+    align-itens:center;
+  }
 `;
 
-const HomerImg=styled.img`
-  max-height:100vh;
+const HomerImg=styled.div`
+  height:100vh;
+  width:50vh;
+  background: url(${homerImg}) center no-repeat; 
+  background-size: contain;
+
+  @media only screen and (orientation:portrait){
+    height:50vh;
+    width:50vh;
+    background: url(${orientationImg}) center no-repeat; 
+    background-size: cover;
+  }
 `;

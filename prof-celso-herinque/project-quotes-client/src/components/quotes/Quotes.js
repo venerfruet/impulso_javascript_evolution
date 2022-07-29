@@ -23,6 +23,9 @@ const Wrapper=styled.div`
   display:flex;
   flex-direction:column;
   align-items:center;
+  @media only screen and (orientation:portrait){
+    display:none;
+  }
 `;
 
 const Quote=styled.p`
