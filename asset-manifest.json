@@ -1,24 +1,13 @@
 {
-  "files": {
-    "main.js": "/perolas_homer/static/js/main.883b562c.chunk.js",
-    "main.js.map": "/perolas_homer/static/js/main.883b562c.chunk.js.map",
-    "runtime-main.js": "/perolas_homer/static/js/runtime-main.92dca648.js",
-    "runtime-main.js.map": "/perolas_homer/static/js/runtime-main.92dca648.js.map",
-    "static/js/2.5b9a3ff7.chunk.js": "/perolas_homer/static/js/2.5b9a3ff7.chunk.js",
-    "static/js/2.5b9a3ff7.chunk.js.map": "/perolas_homer/static/js/2.5b9a3ff7.chunk.js.map",
-    "index.html": "/perolas_homer/index.html",
-    "static/js/2.5b9a3ff7.chunk.js.LICENSE.txt": "/perolas_homer/static/js/2.5b9a3ff7.chunk.js.LICENSE.txt",
-    "static/media/AkbarPlain.1b5f80e4.woff": "/perolas_homer/static/media/AkbarPlain.1b5f80e4.woff",
-    "static/media/AkbarPlain.7f50f3e2.eot": "/perolas_homer/static/media/AkbarPlain.7f50f3e2.eot",
-    "static/media/AkbarPlain.c9102620.woff2": "/perolas_homer/static/media/AkbarPlain.c9102620.woff2",
-    "static/media/bg.1781bbd1.jpg": "/perolas_homer/static/media/bg.1781bbd1.jpg",
-    "static/media/homer.32492859.png": "/perolas_homer/static/media/homer.32492859.png",
-    "static/media/ohSure.b503f576.mp3": "/perolas_homer/static/media/ohSure.b503f576.mp3",
-    "static/media/rotatedevice.2af7be65.gif": "/perolas_homer/static/media/rotatedevice.2af7be65.gif"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.92dca648.js",
-    "static/js/2.5b9a3ff7.chunk.js",
-    "static/js/main.883b562c.chunk.js"
-  ]
+  "main.js": "/perolas_homer/static/js/main.65fa3bf9.chunk.js",
+  "main.js.map": "/perolas_homer/static/js/main.65fa3bf9.chunk.js.map",
+  "static/js/1.d3f6e060.chunk.js": "/perolas_homer/static/js/1.d3f6e060.chunk.js",
+  "static/js/1.d3f6e060.chunk.js.map": "/perolas_homer/static/js/1.d3f6e060.chunk.js.map",
+  "runtime~main.js": "/perolas_homer/static/js/runtime~main.bec6f885.js",
+  "runtime~main.js.map": "/perolas_homer/static/js/runtime~main.bec6f885.js.map",
+  "static/media/felix.png": "/perolas_homer/static/media/felix.c9c955f3.png",
+  "static/media/logo-felix.png": "/perolas_homer/static/media/logo-felix.e2d2235e.png",
+  "index.html": "/perolas_homer/index.html",
+  "precache-manifest.dba093a37f245f5b87589203478595e4.js": "/perolas_homer/precache-manifest.dba093a37f245f5b87589203478595e4.js",
+  "service-worker.js": "/perolas_homer/service-worker.js"
 }
