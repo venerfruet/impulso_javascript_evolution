@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   justify-content: center;
 
   h1 {
-    font-weight: bold;
-    font-size: 32px;
+    font-weight: normal;
+    font-size: 1em;
   }
 `;

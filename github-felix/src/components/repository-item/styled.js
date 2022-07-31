@@ -30,6 +30,8 @@ export const WrapperFullName = styled.h2`
   font-weight: normal;
   margin: 0 0;
   color: #2d3748;
+  font-style: italic;
+  text-decoration: underline;
 `;
 
 export const WrapperLink = styled.a`
