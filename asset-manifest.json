@@ -1,13 +1,13 @@
 {
-  "main.js": "/perolas_homer/static/js/main.65fa3bf9.chunk.js",
-  "main.js.map": "/perolas_homer/static/js/main.65fa3bf9.chunk.js.map",
-  "static/js/1.d3f6e060.chunk.js": "/perolas_homer/static/js/1.d3f6e060.chunk.js",
-  "static/js/1.d3f6e060.chunk.js.map": "/perolas_homer/static/js/1.d3f6e060.chunk.js.map",
-  "runtime~main.js": "/perolas_homer/static/js/runtime~main.bec6f885.js",
-  "runtime~main.js.map": "/perolas_homer/static/js/runtime~main.bec6f885.js.map",
-  "static/media/felix.png": "/perolas_homer/static/media/felix.c9c955f3.png",
-  "static/media/logo-felix.png": "/perolas_homer/static/media/logo-felix.e2d2235e.png",
-  "index.html": "/perolas_homer/index.html",
-  "precache-manifest.dba093a37f245f5b87589203478595e4.js": "/perolas_homer/precache-manifest.dba093a37f245f5b87589203478595e4.js",
-  "service-worker.js": "/perolas_homer/service-worker.js"
+  "main.js": "/githubfelix/static/js/main.fcb9574d.chunk.js",
+  "main.js.map": "/githubfelix/static/js/main.fcb9574d.chunk.js.map",
+  "static/js/1.d7df22e7.chunk.js": "/githubfelix/static/js/1.d7df22e7.chunk.js",
+  "static/js/1.d7df22e7.chunk.js.map": "/githubfelix/static/js/1.d7df22e7.chunk.js.map",
+  "runtime~main.js": "/githubfelix/static/js/runtime~main.b5124dce.js",
+  "runtime~main.js.map": "/githubfelix/static/js/runtime~main.b5124dce.js.map",
+  "static/media/felix.png": "/githubfelix/static/media/felix.c9c955f3.png",
+  "static/media/logo-felix.png": "/githubfelix/static/media/logo-felix.e2d2235e.png",
+  "index.html": "/githubfelix/index.html",
+  "precache-manifest.da79a5015978162c6a4491b8a65ba77e.js": "/githubfelix/precache-manifest.da79a5015978162c6a4491b8a65ba77e.js",
+  "service-worker.js": "/githubfelix/service-worker.js"
 }
