@@ -1,6 +1,6 @@
 {
-  "main.js": "/githubfelix/static/js/main.fcb9574d.chunk.js",
-  "main.js.map": "/githubfelix/static/js/main.fcb9574d.chunk.js.map",
+  "main.js": "/githubfelix/static/js/main.601431d2.chunk.js",
+  "main.js.map": "/githubfelix/static/js/main.601431d2.chunk.js.map",
   "static/js/1.d7df22e7.chunk.js": "/githubfelix/static/js/1.d7df22e7.chunk.js",
   "static/js/1.d7df22e7.chunk.js.map": "/githubfelix/static/js/1.d7df22e7.chunk.js.map",
   "runtime~main.js": "/githubfelix/static/js/runtime~main.b5124dce.js",
@@ -8,6 +8,6 @@
   "static/media/felix.png": "/githubfelix/static/media/felix.c9c955f3.png",
   "static/media/logo-felix.png": "/githubfelix/static/media/logo-felix.e2d2235e.png",
   "index.html": "/githubfelix/index.html",
-  "precache-manifest.da79a5015978162c6a4491b8a65ba77e.js": "/githubfelix/precache-manifest.da79a5015978162c6a4491b8a65ba77e.js",
+  "precache-manifest.fc37eb92ed93bc0b74691e79d76c523e.js": "/githubfelix/precache-manifest.fc37eb92ed93bc0b74691e79d76c523e.js",
   "service-worker.js": "/githubfelix/service-worker.js"
 }
