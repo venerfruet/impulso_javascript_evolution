@@ -6,7 +6,7 @@ const RepositoryItem = ({ name, linkToRepo, fullName }) => {
     <S.Wrapper>
       <S.WrapperTitle>{name}</S.WrapperTitle>
       <S.WrapperFullName>link para o repositório:</S.WrapperFullName>
-      <S.WrapperLink href={`https://github.com/${linkToRepo}`} target="_blank" rel="noreferrer">
+      <S.WrapperLink href={linkToRepo} target="_blank" rel="noreferrer">
         {fullName}
       </S.WrapperLink>
     </S.Wrapper>
