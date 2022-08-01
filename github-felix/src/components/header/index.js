@@ -11,6 +11,11 @@ const Header = () => {
     return getUser(usernameForSearch);
   };
 
+  const handlerKeyDown=(code)=>{
+    console.log(code==='Enter');
+    if(code==='Enter') submitGetUser();
+  }
+
   return (
     <header>
       <S.Wrapper>
@@ -18,6 +23,7 @@ const Header = () => {
           type="text"
           placeholder="Digite o username para pesquisa..."
           onChange={(event) => setUsernameForSearch(event.target.value)}
+          onKeyDown={(event)=>handlerKeyDown(event.code)}
         />
         <button type="submit" onClick={submitGetUser}>
           <span>Buscar</span>
