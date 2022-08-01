@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "601431d23e6ebe16624e",
-    "url": "/githubfelix/static/js/main.601431d2.chunk.js"
+    "revision": "37d199acb258ca70c42d",
+    "url": "/githubfelix/static/js/main.37d199ac.chunk.js"
   },
   {
     "revision": "d7df22e711c646de8e28",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/githubfelix/static/media/logo-felix.e2d2235e.png"
   },
   {
-    "revision": "46d5fc20e8bbad3c8c0643c8f2f081ca",
+    "revision": "1d73d31df7999677fc854c5b6a6eb80f",
     "url": "/githubfelix/index.html"
   }
 ];
