@@ -12,7 +12,6 @@ const Header = () => {
   };
 
   const handlerKeyDown=(code)=>{
-    console.log(code==='Enter');
     if(code==='Enter') submitGetUser();
   }
 
