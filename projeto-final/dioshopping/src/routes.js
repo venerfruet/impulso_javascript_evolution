@@ -4,7 +4,7 @@ import HomePage from './Pages/home';
 import Contatos from './Pages/contato';
 
 const MainRoutes = () => {
-    return(
+    return (
         <Routes>
             <Route
                 path="/"

@@ -8,5 +8,9 @@ export const StyledNewCard = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 67.5vh;
-  align-items: center;  
+  align-items: center;
+
+  .MuiListItem-root{
+    text-align: center;
+  }
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Paper, Grid, Typography, List, makeStyles } from '@material-ui/core/';
+import { Typography, List, makeStyles } from '@material-ui/core/';
 import Item from '../components/Item';
 import Card from '../components/ProductCard';
 import GridProducts from '../components/GridProducts';

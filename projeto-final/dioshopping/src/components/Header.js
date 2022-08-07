@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Grid, Button } from '@material-ui/core/';
+import { Button } from '@material-ui/core/';
 import Cart from './Cart';
 import TituloLogo from '../components/TituloLogo';
 import GridHeader from '../components/GridHeader';
