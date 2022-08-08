@@ -75,7 +75,7 @@ const productsList = [
     id_product: 7,
     category: "Banco de Dados",
     fk_idcategorys: 5,
-    name_product: "MongoDb e BD NoSQL",
+    name_product: "MongoDB e BD NoSQL",
     price: 200,
     image: "./images/produtos/mongodbnosql.png",
     id_categorys: 5,
