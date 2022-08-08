@@ -58,17 +58,17 @@ const Cart = () => {
                                                 <th><span className="badge badge-pill bg-warning">
                                                     {item.quantity}
                                                 </span></th>
-                                                <th>R$ {item.price.toFixed(2)}</th>
+                                                <th>{item.price} XP</th>
                                                 <th><button onClick={() => dispatch(cartActions.AddItem(cart, item))} className="badge badge-pill bg-primary"><i className="fas fa-plus"></i></button></th>
                                                 <th><button onClick={() => dispatch(cartActions.RemoveItem(cart, item))} className="badge badge-pill bg-danger"><i className="fas fa-minus"></i></button></th>
-                                                <th>R$ {(item.price * item.quantity).toFixed(2)}</th>
+                                                <th>{(item.price * item.quantity)} XP</th>
                                             </tr>
                                         )
                                     })}
                                     <tr>
                                         <th colSpan="2" scope="col">Total</th>
                                         <th colSpan="3">{cart.value} itens</th>
-                                        <th colSpan="2">R$ {totalPrice.toFixed(2)}</th>
+                                        <th colSpan="2">{totalPrice} XP</th>
                                     </tr>
                                 </tbody>
                             </table>
