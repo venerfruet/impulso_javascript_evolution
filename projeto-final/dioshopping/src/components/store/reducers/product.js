@@ -118,6 +118,18 @@ const productsList = [
     name_categorys: "Front end",
     description: "Fundamentos de JavaScript Assíncrono",
     selected: false
+  },
+  {
+    id_product: 11,
+    category: "Back end",
+    fk_idcategorys: 7,
+    name_product: "Ambiente NodeJs",
+    price: 200,
+    image: "./images/produtos/installnodejs.png",
+    id_categorys: 7,
+    name_categorys: "Back end",
+    description: "Instalando e Configurando seu Ambiente Node.js",
+    selected: false
   }
 ];
 
