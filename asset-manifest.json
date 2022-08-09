@@ -1,13 +1,14 @@
 {
-  "main.js": "/githubfelix/static/js/main.7855c2ff.chunk.js",
-  "main.js.map": "/githubfelix/static/js/main.7855c2ff.chunk.js.map",
-  "static/js/1.d7df22e7.chunk.js": "/githubfelix/static/js/1.d7df22e7.chunk.js",
-  "static/js/1.d7df22e7.chunk.js.map": "/githubfelix/static/js/1.d7df22e7.chunk.js.map",
-  "runtime~main.js": "/githubfelix/static/js/runtime~main.b5124dce.js",
-  "runtime~main.js.map": "/githubfelix/static/js/runtime~main.b5124dce.js.map",
-  "static/media/felix.png": "/githubfelix/static/media/felix.c9c955f3.png",
-  "static/media/logo-felix.png": "/githubfelix/static/media/logo-felix.e2d2235e.png",
-  "index.html": "/githubfelix/index.html",
-  "precache-manifest.d9e48ec955a08dd28086b6ae73807321.js": "/githubfelix/precache-manifest.d9e48ec955a08dd28086b6ae73807321.js",
-  "service-worker.js": "/githubfelix/service-worker.js"
+  "files": {
+    "main.js": "/dioshopping/static/js/main.c833f75d.js",
+    "static/media/logo.png": "/dioshopping/static/media/logo.8f8a0933cc91995b6976.png",
+    "static/media/ExodarOutline.eot": "/dioshopping/static/media/ExodarOutline.1208a0ba9ac83e3f6a38.eot",
+    "static/media/ExodarOutline.woff": "/dioshopping/static/media/ExodarOutline.6908cb9f2f1f7963acaf.woff",
+    "static/media/ExodarOutline.woff2": "/dioshopping/static/media/ExodarOutline.bfb27c2cf2d98c8dd150.woff2",
+    "index.html": "/dioshopping/index.html",
+    "main.c833f75d.js.map": "/dioshopping/static/js/main.c833f75d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c833f75d.js"
+  ]
 }
