@@ -20,7 +20,7 @@ const productsList = [
     image: "./images/produtos/vsc.png",
     id_categorys: 2,
     name_categorys: "Editores",
-    description: "Pirâmide de Testes na Prática Explorando Jest e TDD",
+    description: "Instalação e Configuração do Visual Studio Code",
     selected: false
   },
   {
@@ -129,6 +129,18 @@ const productsList = [
     id_categorys: 7,
     name_categorys: "Back end",
     description: "Instalando e Configurando seu Ambiente Node.js",
+    selected: false
+  },
+  {
+    id_product: 11,
+    category: "Front end",
+    fk_idcategorys: 3,
+    name_product: "Flexbox em CSS",
+    price: 160,
+    image: "./images/produtos/flexboxcss.png",
+    id_categorys: 3,
+    name_categorys: "Front end",
+    description: "Posicionando elementos com Flexbox em CSS",
     selected: false
   }
 ];

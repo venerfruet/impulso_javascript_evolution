@@ -10,4 +10,5 @@ export const StyledGridItem = styled.div`
   min-height: 236.5px;
   min-width:206px;
   text-align: center;
+  height: 100%;
 `;

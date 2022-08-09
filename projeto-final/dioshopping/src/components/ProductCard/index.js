@@ -17,7 +17,10 @@ const Card = ({ product, children }) => {
           {children}
         </Typography>
         <Typography variant='subtitle1'>
-          {product.price} XP
+          XP$ {product.price}
+        </Typography>
+        <Typography variant='subtitle2'>
+          {product.description}
         </Typography>
         <Button
           variant="contained"
