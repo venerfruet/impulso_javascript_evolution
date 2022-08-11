@@ -4,6 +4,7 @@ import { Typography, Button } from '@material-ui/core/';
 import { StyledCard } from './styled';
 import GridItem from '../GridItem'
 import cartActions from '../store/actions/cart';
+import ImageLoader from '../ImageLoader';
 
 const Card = ({ product, children }) => {
   const cart = useSelector(state => state.cart.value)
@@ -12,7 +13,7 @@ const Card = ({ product, children }) => {
   return (
     <StyledCard>
       <GridItem>
-        <img width="140px" src={product.image} alt={product.name_product} />
+        <ImageLoader src={product.image} alt={product.name_product} />
         <Typography variant='h6'>
           {children}
         </Typography>
