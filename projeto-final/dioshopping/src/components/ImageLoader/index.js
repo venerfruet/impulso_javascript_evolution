@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { StyledImg } from './styled';
 import Loading from '../../images/loading.gif';
 
@@ -10,7 +10,6 @@ const ImageLoader = (params) => {
   img.src = params.src;
 
   img.onload = () => {
-    console.log('Foi');
     setSrc(img.src);
   }
 
