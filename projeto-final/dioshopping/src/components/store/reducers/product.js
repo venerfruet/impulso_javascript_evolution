@@ -132,7 +132,7 @@ const productsList = [
     selected: false
   },
   {
-    id_product: 11,
+    id_product: 12,
     category: "Front end",
     fk_idcategorys: 3,
     name_product: "Flexbox em CSS",
