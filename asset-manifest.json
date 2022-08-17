@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/dioshopping/static/js/main.4178528d.js",
+    "main.js": "/dioshopping/static/js/main.780cdc67.js",
     "static/media/construcao.png": "/dioshopping/static/media/construcao.4ea9ca17aaabd0731402.png",
     "static/media/vsc.png": "/dioshopping/static/media/vsc.b9fc735058383d1374cb.png",
     "static/media/oriobjjavascript.png": "/dioshopping/static/media/oriobjjavascript.6e1206579d848e704e2a.png",
@@ -20,9 +20,9 @@
     "static/media/ExodarOutline.woff": "/dioshopping/static/media/ExodarOutline.6908cb9f2f1f7963acaf.woff",
     "static/media/ExodarOutline.woff2": "/dioshopping/static/media/ExodarOutline.bfb27c2cf2d98c8dd150.woff2",
     "index.html": "/dioshopping/index.html",
-    "main.4178528d.js.map": "/dioshopping/static/js/main.4178528d.js.map"
+    "main.780cdc67.js.map": "/dioshopping/static/js/main.780cdc67.js.map"
   },
   "entrypoints": [
-    "static/js/main.4178528d.js"
+    "static/js/main.780cdc67.js"
   ]
 }
