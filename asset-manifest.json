@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.js": "/dioshopping/static/js/main.780cdc67.js",
-    "static/media/construcao.png": "/dioshopping/static/media/construcao.4ea9ca17aaabd0731402.png",
-    "static/media/vsc.png": "/dioshopping/static/media/vsc.b9fc735058383d1374cb.png",
-    "static/media/oriobjjavascript.png": "/dioshopping/static/media/oriobjjavascript.6e1206579d848e704e2a.png",
-    "static/media/domjavascript.png": "/dioshopping/static/media/domjavascript.e00712ba0f4608b93e7a.png",
-    "static/media/installnodejs.png": "/dioshopping/static/media/installnodejs.5009344a0dac24b6e59d.png",
-    "static/media/html5css3.png": "/dioshopping/static/media/html5css3.3cd2c6c2c22605f4c9a3.png",
-    "static/media/sejaprotagosnista.png": "/dioshopping/static/media/sejaprotagosnista.85b03496b683d86397ed.png",
-    "static/media/jesttdd.png": "/dioshopping/static/media/jesttdd.084349f5f46d7a7652e8.png",
-    "static/media/logo.png": "/dioshopping/static/media/logo.8f8a0933cc91995b6976.png",
-    "static/media/javascriptassinc.png": "/dioshopping/static/media/javascriptassinc.f7f682f71a40347abbbc.png",
-    "static/media/computacional.png": "/dioshopping/static/media/computacional.9b887979717b99a935be.png",
-    "static/media/banner.jpg": "/dioshopping/static/media/banner.fd902f5d97309ea93180.jpg",
-    "static/media/ExodarOutline.eot": "/dioshopping/static/media/ExodarOutline.1208a0ba9ac83e3f6a38.eot",
-    "static/media/decolatech3.png": "/dioshopping/static/media/decolatech3.e006c9b40af86736992d.png",
-    "static/media/mongodbnosql.png": "/dioshopping/static/media/mongodbnosql.8b6bb1f8a4ad8233b499.png",
-    "static/media/flexboxcss.png": "/dioshopping/static/media/flexboxcss.bde19b7e61f1b579eab4.png",
-    "static/media/ExodarOutline.woff": "/dioshopping/static/media/ExodarOutline.6908cb9f2f1f7963acaf.woff",
-    "static/media/ExodarOutline.woff2": "/dioshopping/static/media/ExodarOutline.bfb27c2cf2d98c8dd150.woff2",
-    "index.html": "/dioshopping/index.html",
-    "main.780cdc67.js.map": "/dioshopping/static/js/main.780cdc67.js.map"
+    "main.js": "/ecommerce/static/js/main.fb7eee8a.js",
+    "static/media/construcao.png": "/ecommerce/static/media/construcao.4ea9ca17aaabd0731402.png",
+    "static/media/vsc.png": "/ecommerce/static/media/vsc.b9fc735058383d1374cb.png",
+    "static/media/oriobjjavascript.png": "/ecommerce/static/media/oriobjjavascript.6e1206579d848e704e2a.png",
+    "static/media/domjavascript.png": "/ecommerce/static/media/domjavascript.e00712ba0f4608b93e7a.png",
+    "static/media/installnodejs.png": "/ecommerce/static/media/installnodejs.5009344a0dac24b6e59d.png",
+    "static/media/html5css3.png": "/ecommerce/static/media/html5css3.3cd2c6c2c22605f4c9a3.png",
+    "static/media/sejaprotagosnista.png": "/ecommerce/static/media/sejaprotagosnista.85b03496b683d86397ed.png",
+    "static/media/jesttdd.png": "/ecommerce/static/media/jesttdd.084349f5f46d7a7652e8.png",
+    "static/media/logo.png": "/ecommerce/static/media/logo.8f8a0933cc91995b6976.png",
+    "static/media/javascriptassinc.png": "/ecommerce/static/media/javascriptassinc.f7f682f71a40347abbbc.png",
+    "static/media/computacional.png": "/ecommerce/static/media/computacional.9b887979717b99a935be.png",
+    "static/media/banner.jpg": "/ecommerce/static/media/banner.fd902f5d97309ea93180.jpg",
+    "static/media/ExodarOutline.eot": "/ecommerce/static/media/ExodarOutline.1208a0ba9ac83e3f6a38.eot",
+    "static/media/decolatech3.png": "/ecommerce/static/media/decolatech3.e006c9b40af86736992d.png",
+    "static/media/mongodbnosql.png": "/ecommerce/static/media/mongodbnosql.8b6bb1f8a4ad8233b499.png",
+    "static/media/flexboxcss.png": "/ecommerce/static/media/flexboxcss.bde19b7e61f1b579eab4.png",
+    "static/media/ExodarOutline.woff": "/ecommerce/static/media/ExodarOutline.6908cb9f2f1f7963acaf.woff",
+    "static/media/ExodarOutline.woff2": "/ecommerce/static/media/ExodarOutline.bfb27c2cf2d98c8dd150.woff2",
+    "index.html": "/ecommerce/index.html",
+    "main.fb7eee8a.js.map": "/ecommerce/static/js/main.fb7eee8a.js.map"
   },
   "entrypoints": [
-    "static/js/main.780cdc67.js"
+    "static/js/main.fb7eee8a.js"
   ]
 }
