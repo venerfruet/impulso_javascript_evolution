@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledFilterBar = styled.div`
-  background-color: #e4bd02e6;
+  background-color: #ff1493db;
   border-radius: 13px;
   width: 91vw;
   margin-top: 7px;

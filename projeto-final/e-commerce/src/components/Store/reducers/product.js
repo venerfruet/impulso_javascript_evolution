@@ -145,4 +145,25 @@ const productsList = [
   }
 ];
 
-export default productsList;
+const categoryObj = {};
+
+for (const item of productsList) {
+  if (categoryObj[item.id_categorys]) {
+    categoryObj[item.id_categorys].count++;
+  } else {
+    categoryObj[item.id_categorys] = {
+      id: item.id_categorys,
+      name: item.name_categorys,
+      count: 1,
+      show: true
+    }
+  }
+}
+
+const categoryList = [];
+
+for (const item in categoryObj) {
+  categoryList.push(categoryObj[item]);
+}
+
+export { productsList, categoryList };

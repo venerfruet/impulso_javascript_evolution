@@ -17,13 +17,13 @@ export const StyledModalContent = styled.div`
 `;
 
 export const StyledModalContainer = styled.div`
-  background-color: #e4bd02e6;
+  background-color: #ff1493db;
   border-radius: 13px;
   width: 100vw;
   height: 57vh;
   margin-top:7px;
   padding: 17px;
-  border: 3px solid #e4bd02;
+  border: 3px solid deeppink;
 `;
 
 export const StyledModalIcon = styled.div`

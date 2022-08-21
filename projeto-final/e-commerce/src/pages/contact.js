@@ -1,12 +1,11 @@
 import React from 'react';
-import Foto from '../images/construcao.png';
+import { Banner } from '../components/Banner';
+import ImageBanner from '../images/construcao.png';
 
-
-
-const Contact = () => {
+const Home = () => {
   return (
-    <img src={Foto} />
+    <Banner src={ImageBanner} alt='modelo com jaqueta' />
   );
 }
 
-export default Contact;
+export default Home;

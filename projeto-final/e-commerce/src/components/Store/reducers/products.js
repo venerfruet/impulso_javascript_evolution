@@ -1,7 +1,14 @@
-import productsList from './product';
+import { productsList, categoryList } from './product';
 
 const PRODUCT = productsList;
+const GATEGORY = categoryList;
 
-export default function products(state = PRODUCT) {
+const products = (state = PRODUCT) => {
     return state;
 }
+
+const categorys = (state = GATEGORY) => {
+    return state;
+}
+
+export { products, categorys }
