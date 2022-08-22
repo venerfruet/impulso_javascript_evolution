@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/ecommerce/static/js/main.fb7eee8a.js",
+    "main.js": "/ecommerce/static/js/main.f37e7f40.js",
     "static/media/construcao.png": "/ecommerce/static/media/construcao.4ea9ca17aaabd0731402.png",
     "static/media/vsc.png": "/ecommerce/static/media/vsc.b9fc735058383d1374cb.png",
     "static/media/oriobjjavascript.png": "/ecommerce/static/media/oriobjjavascript.6e1206579d848e704e2a.png",
@@ -12,7 +12,7 @@
     "static/media/logo.png": "/ecommerce/static/media/logo.8f8a0933cc91995b6976.png",
     "static/media/javascriptassinc.png": "/ecommerce/static/media/javascriptassinc.f7f682f71a40347abbbc.png",
     "static/media/computacional.png": "/ecommerce/static/media/computacional.9b887979717b99a935be.png",
-    "static/media/banner.jpg": "/ecommerce/static/media/banner.fd902f5d97309ea93180.jpg",
+    "static/media/banner.jpg": "/ecommerce/static/media/banner.6229168af1972d28340a.jpg",
     "static/media/ExodarOutline.eot": "/ecommerce/static/media/ExodarOutline.1208a0ba9ac83e3f6a38.eot",
     "static/media/decolatech3.png": "/ecommerce/static/media/decolatech3.e006c9b40af86736992d.png",
     "static/media/mongodbnosql.png": "/ecommerce/static/media/mongodbnosql.8b6bb1f8a4ad8233b499.png",
@@ -20,9 +20,9 @@
     "static/media/ExodarOutline.woff": "/ecommerce/static/media/ExodarOutline.6908cb9f2f1f7963acaf.woff",
     "static/media/ExodarOutline.woff2": "/ecommerce/static/media/ExodarOutline.bfb27c2cf2d98c8dd150.woff2",
     "index.html": "/ecommerce/index.html",
-    "main.fb7eee8a.js.map": "/ecommerce/static/js/main.fb7eee8a.js.map"
+    "main.f37e7f40.js.map": "/ecommerce/static/js/main.f37e7f40.js.map"
   },
   "entrypoints": [
-    "static/js/main.fb7eee8a.js"
+    "static/js/main.f37e7f40.js"
   ]
 }
