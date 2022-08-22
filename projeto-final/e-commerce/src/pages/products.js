@@ -17,9 +17,9 @@ const Produtcs = () => {
   }
 
   const filterCategorys = (idCategory) => {
-    return categorys[idCategory].show;
+    const search = categorys.find((cat) => cat.id === idCategory);
+    return search.show;
   }
-
 
   return (
     <>
@@ -32,7 +32,7 @@ const Produtcs = () => {
       <GridProducts>
         {products.map(item => {
           return (
-            filterCategorys(item.id_categorys - 1) && (
+            filterCategorys(item.id_categorys) && (
               <Card
                 key={item.id_product}
                 product={item}
