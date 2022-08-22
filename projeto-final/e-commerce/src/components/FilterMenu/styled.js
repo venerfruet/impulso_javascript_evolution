@@ -6,10 +6,10 @@ export const StyledList = styled.ul`
 `;
 
 export const StyledItem = styled.li`
+  display: flex;
   padding: 7px;
 `;
 
-export const StyledSelect = styled.input.attrs({ type: 'checkbox' })`
-  cursor:pointer;
+export const StyledSwitchPosition = styled.span`
   margin-right: 11px;
 `;

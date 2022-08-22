@@ -13,6 +13,9 @@ const Card = ({ product, children }) => {
           {children}
         </Titulo>
         <Normal>
+          Categoria {product.name_categorys}
+        </Normal>
+        <Normal>
           XP$ {product.price}
         </Normal>
         <Normal>

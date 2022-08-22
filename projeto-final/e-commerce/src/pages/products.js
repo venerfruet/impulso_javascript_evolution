@@ -7,7 +7,8 @@ import FilterMenu from '../components/FilterMenu';
 import Filterbar from '../components/FilterBar';
 
 const Produtcs = () => {
-  const products = useSelector(state => state.products)
+  const products = useSelector(state => state.products);
+  const categorys = useSelector(state => state.categorys);
 
   const [show, setShow] = useState(true);
 
@@ -15,10 +16,15 @@ const Produtcs = () => {
     setShow(!show);
   }
 
+  const filterCategorys = (idCategory) => {
+    return categorys[idCategory].show;
+  }
+
+
   return (
     <>
       <Filterbar active={show} onClick={handleClick}>
-        ...exibindo tudo.
+        ...clique para filtrar a categoria.
       </Filterbar>
       <Modal active={!show} onClick={handleClick}>
         <FilterMenu />
@@ -26,12 +32,14 @@ const Produtcs = () => {
       <GridProducts>
         {products.map(item => {
           return (
-            <Card
-              key={item.id_product}
-              product={item}
-            >
-              {item.name_product}
-            </Card>
+            filterCategorys(item.id_categorys - 1) && (
+              <Card
+                key={item.id_product}
+                product={item}
+              >
+                {item.name_product}
+              </Card>
+            )
           )
         })}
       </GridProducts>

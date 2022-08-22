@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import { StyledList, StyledItem, StyledSelect } from './styled';
+import { StyledList, StyledItem, StyledSwitchPosition } from './styled';
+import Switch from 'react-switch';
 
 const FilterMenu = () => {
 
   const categorys = useSelector(state => state.categorys);
 
+  const [isChecked, setIsChecked] = useState(true);
+
   const handleChange = (id) => {
+    setIsChecked(!isChecked);
     categorys[id].show = !categorys[id].show;
-    console.log(categorys);
   }
 
   return (
@@ -17,10 +20,11 @@ const FilterMenu = () => {
         (category, index) => {
           return (
             <StyledItem key={category.id}>
-              <StyledSelect
-                defaultChecked={category.show}
-                onChange={() => handleChange(index)}
-              />
+              <StyledSwitchPosition>
+                <Switch
+                  onChange={() => handleChange(index)}
+                  checked={category.show} />
+              </StyledSwitchPosition>
               {category.name} ({category.count})
             </StyledItem>
           )

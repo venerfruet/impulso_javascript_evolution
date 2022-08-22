@@ -4,7 +4,7 @@ export const StyledModal = styled.div`
   position: absolute;
   display: flex;
   justify-content: center;
-  width: 95vw;
+  width: 96vw;
   height:70vh;
   z-index: 23;
   cursor: pointer;
@@ -17,13 +17,13 @@ export const StyledModalContent = styled.div`
 `;
 
 export const StyledModalContainer = styled.div`
-  background-color: #ff1493db;
+  background-color: #ff1493eb;
   border-radius: 13px;
   width: 100vw;
   height: 57vh;
   margin-top:7px;
   padding: 17px;
-  border: 3px solid deeppink;
+  border: 3px solid black;
 `;
 
 export const StyledModalIcon = styled.div`

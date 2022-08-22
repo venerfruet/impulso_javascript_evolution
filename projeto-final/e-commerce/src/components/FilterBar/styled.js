@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const StyledFilterBar = styled.div`
   background-color: #ff1493db;
+  border: 3px solid black;
   border-radius: 13px;
-  width: 91vw;
+  width: 89.5vw;
   margin-top: 7px;
   padding: 11px;
   cursor: pointer;
