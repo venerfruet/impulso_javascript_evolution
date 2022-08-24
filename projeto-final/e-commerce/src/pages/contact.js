@@ -4,7 +4,9 @@ import ImageBanner from '../images/construcao.png';
 
 const Home = () => {
   return (
-    <Banner src={ImageBanner} alt='modelo com jaqueta' />
+    <>
+      <Banner src={ImageBanner} alt='em construção' />
+    </>
   );
 }
 

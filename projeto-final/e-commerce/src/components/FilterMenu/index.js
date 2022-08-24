@@ -23,7 +23,10 @@ const FilterMenu = () => {
               <StyledSwitchPosition>
                 <Switch
                   onChange={() => handleChange(index)}
-                  checked={category.show} />
+                  checked={category.show}
+                  onHandleColor="#ff1493"
+                  offHandleColor="#ff1493"
+                />
               </StyledSwitchPosition>
               {category.name} ({category.count})
             </StyledItem>

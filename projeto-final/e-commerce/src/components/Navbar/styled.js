@@ -6,14 +6,17 @@ export const Nav = styled.nav`
   justify-content: space-between;
   @media (orientation:portrait){
     width: 100%;
+    margin-bottom:11px;
   }
 `;
 
 export const NavLink = styled(Link)`
   color: #808080;
+  border:2px solid;
+  border-radius:7px;
   font-size: 1.3em;
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
@@ -27,5 +30,6 @@ export const NavLink = styled(Link)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
 `;

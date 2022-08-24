@@ -33,6 +33,7 @@ export const Button = styled.button`
   margin-top: 11px;
   width: 70%;
   padding: 3px;
+  cursor: pointer;
   @media (orientation: portrait){
     font-size: 1.5em;
   }
