@@ -6,8 +6,16 @@ import Home from './pages';
 import Produtcs from './pages/products';
 import Contact from './pages/contact';
 import Cart from './pages/cart';
+import store from './components/Store';
 
 function App() {
+
+  const localCart = JSON.parse(localStorage.getItem('dioshopping: cart'))
+
+  if (localCart !== null) {
+    store.dispatch({ type: 'CHANGE_CART', localCart })
+  }
+
   return (
     <Provider store={Store}>
       <Router>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, NavLink, NavMenu } from "./styled";
 import { TbHome, TbChristmasTree, TbMail, TbShoppingCart } from 'react-icons/tb';
-import Cart from '../Cart';
+import CartLink from '../CartLink';
 
 const Navbar = () => {
   return (
@@ -9,17 +9,17 @@ const Navbar = () => {
       <Nav>
         <NavMenu>
           <NavLink to="/">
-            <TbHome size="35px" />
+            <TbHome size="27px" />
           </NavLink>
           <NavLink to="/products">
-            <TbChristmasTree size="35px" />
+            <TbChristmasTree size="27px" />
           </NavLink>
           <NavLink to="/contact">
-            <TbMail size="35px" />
+            <TbMail size="27px" />
           </NavLink>
           <NavLink to="/cart">
-            <TbShoppingCart size="35px" />
-            <Cart active={false} />
+            <TbShoppingCart size="27px" />
+            <CartLink />
           </NavLink>
         </NavMenu>
       </Nav>
